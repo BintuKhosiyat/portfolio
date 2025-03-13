@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.foto {
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.rowHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header {
+    padding: 24px 0px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu a:hover {
+    color: rgb(220, 17, 17);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.resume {
+    padding: 16px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+
+}
+
+
+.resume i:hover {
+    color: red;
+}
+
+.left {
+    width: 600px;
+}
+
+.left h2 {
+    font-size: 48px;
+}
+
+.left p {
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 90px;
+}
+
+.left i {
+    font-size: 32px;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+
+.social i:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.social {
+    display: flex;
+    gap: 30px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+
+.right img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 186px;
+    height: 186px;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 25px;
+}
+
+.second {
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.thirdSection {
+    background-color: black;
+    padding-bottom: 60px;
+}
+
+.cat {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+}
+
+.cardTitle {
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.snake {
+    margin: 30px 0;
+}
+
+.rowFourth img {
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.rowFourth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rowFourth .right {
+    width: 610px;
+}
+
+.about {
+    margin: 30px 0;
+
+}
+
+.like {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.fourth {
+    margin-top: 60px;
+}
+
+.sixthSection img {
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+
+}
+
+.durdon {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: white;
+
+
+}
+
+.rowsixth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rowsixth .right {
+    width: 582px;
+    color: white;
+
+}
+
+.Mohi {
+    font-size: 24px;
+    margin: 28px 0;
+
+}
+
+.sixthSection {
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.middleRow {
+    margin: 80px 0;
+}
+
+.cardFedback {
+    width: 370px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.cardFedback img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.fedbackText {
+    margin: 24px 0;
+}
+
+.line {
+    width: 120px;
+    height: 4px;
+    background-color: black;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.nameCard {
+    margin-bottom: 24px;
+}
+
+.Sarvara {
+    font-size: 36px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.rowSeventh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eightRow .left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+.eightRow input {
+    padding: 16px 24px;
+}
+
+.eightRow textarea {
+    padding: 16px 24px;
+    height: 150px;
+}
+
+.touch {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    padding: 16px 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.icons i:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.eightSection {
+    margin-top: 40px;
+}
+
+.eightSection .right {
+    width: 608px;
+}
+
+.eightRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.let {
+    font-size: 48px;
+}
+
+.stupid {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.song {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.push {
+    width: 80%;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-top: 40px;
+
+}
+
+.rowFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rowFooter img {
+    width: 100px;
+}
